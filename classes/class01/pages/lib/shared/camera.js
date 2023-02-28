@@ -23,9 +23,9 @@ export default class Camera {
 		camera.video.srcObject = stream
 
 		//Debug reason
-		camera.video.width = 320
-		camera.video.height = 240
-		document.body.append(camera.video)
+		// camera.video.width = 320
+		// camera.video.height = 240
+		// document.body.append(camera.video)
 
 
 		//waiting for camera
