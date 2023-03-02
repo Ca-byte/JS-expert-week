@@ -19,10 +19,10 @@ Star this project [Seventh Javascript Expert Week](https://github.com/ErickWende
 ## Checklist Features
 - Titles List
   - [x] - The search field should not crash when typing the search term
-  - [] - It should draw hands on screen and make background elements still clickable 🙌
+  - [x] - It should draw hands on screen and make background elements still clickable 🙌
   - [x] - Should trigger scroll up when using open palm 🖐
   - [x] - Must trigger scroll down when using closed palm ✊
-  - [] - Must trigger click on nearest element when using pinch gesture 🤏🏻
+  - [x] - Must trigger click on nearest element when using pinch gesture 🤏🏻
   - [] - When moving elements on the screen, it should trigger the event**:hover** in elements in context
 
 - Video Player
