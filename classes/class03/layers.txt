@@ -1,0 +1,21 @@
+workers -> second plan process
+-> All heavy logic(CPU involved)
+-> Everything that can crash the app(for loop, machine learning, AI, Web Can working)
+-> it calls business rules from services.
+
+services ->
+-> All business logic
+-> All external calls (API, tables, article)
+
+views ->
+-> All DOM interation (HTML pages)
+
+controllers ->
+-> It is the intermidiate between (services and/or workers) e views
+
+factories ->
+-> Import the dependencies
+-> create a final object to do the calls
+-> it returns a function that initialize the component flow (init)
+
+index.js -> Call all the layers.
