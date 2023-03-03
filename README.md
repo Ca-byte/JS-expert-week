@@ -23,7 +23,7 @@ Star this project [Seventh Javascript Expert Week](https://github.com/ErickWende
   - [x] - Should trigger scroll up when using open palm 🖐
   - [x] - Must trigger scroll down when using closed palm ✊
   - [x] - Must trigger click on nearest element when using pinch gesture 🤏🏻
-  - [] - When moving elements on the screen, it should trigger the event**:hover** in elements in context
+  - [x] - When moving elements on the screen, it should trigger the event**:hover** in elements in context
 
 - Video Player
   - [x] - It should be possible to play or pause videos in the blink of an eye 😁
@@ -32,9 +32,8 @@ Star this project [Seventh Javascript Expert Week](https://github.com/ErickWende
 ### Challenges
 - [] - Lesson 01 - Differentiate between left and right eye blinks and update the log to show which eye blinked.
 - [] - Lesson 02 - Recognize individual hand gestures and print in the record
-- [] - Class 03 - To be defined
-- [] - Class 04 - To be defined
-
+- [] - Lesson 03 - Correct video title banner, to be behind the hand drawing and to be clickable
+- [] - Lesson 04 - Using virtual hands also in Video Player
 ### Links mostrados nos aulas:
 - Reuni todos os links em [referências](./referencias.md)
 
