@@ -1,13 +1,5 @@
-# JSExpertMax Gesture Controller - Semana JS Expert 7.0
 
-Welcome to the seventh Javascript Expert Week. This is the initial code to start our journey.
-
-Star this project [Seventh Javascript Expert Week](https://github.com/ErickWendel/semana-javascript-expert07)🌟
-
-## Preview
-<img width=100% src="./initial-template/assets/demo-template-lg.gif">
-
-## Pre-reqs
+## Prerequisites
 - This project was created using Node.js v19.6
 - Ideally, you should use the project in a Unix (Linux) environment. If you are on Windows, it is recommended to use [Windows Subsystem Linux](https://www.omgubuntu.co.uk/how-to-install-wsl2-on-windows-10) as Linux commands are shown in classes that may not exist on Windows.
 
@@ -34,8 +26,10 @@ Star this project [Seventh Javascript Expert Week](https://github.com/ErickWende
 - [] - Lesson 02 - Recognize individual hand gestures and print in the record
 - [] - Lesson 03 - Correct video title banner, to be behind the hand drawing and to be clickable
 - [] - Lesson 04 - Using virtual hands also in Video Player
-### Links mostrados nos aulas:
-- Reuni todos os links em [referências](./referencias.md)
+
+### Classes and Links:
+- Reuni todos os links em[referências](./referencias.md)
+- JSExpertMax Gesture Controller - Semana JS Expert 7.0[Seventh Javascript Expert Week](https://github.com/ErickWendel/semana-javascript-expert07)🌟
 
 ### FAQ
 - browser sync is throwing errors on Windows and never boots:
