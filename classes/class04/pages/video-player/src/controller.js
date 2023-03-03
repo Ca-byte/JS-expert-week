@@ -10,6 +10,7 @@ export default class Controller {
 		this.#camera = camera
 
 		this.#view.configureOnBtnClick(this.onBtnStart.bind(this))
+		
 	}
 
 	static async initialize(deps) {
