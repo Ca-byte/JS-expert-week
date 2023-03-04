@@ -1,9 +1,11 @@
-<p align="center" id="top">
-    <img alt="" src=".github/js-logo.png" width="100px">
+
+<p align="center">
+  <img alt="streaming platform with drawing hands doing a heart shape" src=".github/js-expert-cover.png" width="600px">
 </p>
 
-## Live Demo:
 Give a peek at the project [Here](https://ca-byte.github.io/JS-expect-week/classes/class04/pages/titles/)
+
+<br>
 
 
 <p align="center">
