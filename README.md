@@ -1,15 +1,89 @@
+<p align="center" id="top">
+    <img alt="" src=".github/js-logo.png" width="100px">
+</p>
 
-## Prerequisites
+## Live Demo:
+Give a peek at the project [Here](https://ca-byte.github.io/JS-expect-week/classes/class04/pages/titles/)
+
+
+<p align="center">
+  <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="#features">Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="#links">Links</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="#faq">FAQ</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="#layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+</p>
+<br>
+
+---
+## 🚀 Technologies ##
+
+This project was developed using the following technologies:
+
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [TensorFlow](https://blog.tensorflow.org/2020/11/iris-landmark-tracking-in-browser-with-MediaPipe-and-TensorFlowJS.html)
+- [Workers API](https://blog.tensorflow.org/2020/11/iris-landmark-tracking-in-browser-with-MediaPipe-and-TensorFlowJS.html)
+- [Module Workers](https://web.dev/module-workers/)
+
+<br>
+---
+## 📋  Requirements ##
+
+Before starting you need :checkered_flag:, have installed the [Git](https://git-scm.com) e [Node](https://nodejs.org/en/).
 - This project was created using Node.js v19.6
 - Ideally, you should use the project in a Unix (Linux) environment. If you are on Windows, it is recommended to use [Windows Subsystem Linux](https://www.omgubuntu.co.uk/how-to-install-wsl2-on-windows-10) as Linux commands are shown in classes that may not exist on Windows.
 
-## Running
+<br>
 
-- Run `npm ci` in the folder containing the `package.json` file to restore the packages
-- Run `npm start` and go to your browser at [http://localhost:3000](http://localhost:3000) to view the above page
+## FAQ ##
+- browser sync is throwing errors on Windows and never boots:
+  - Solution: Replace browser sync with http server.
+    1. install **http-server** with `npm i -D http-server`
+    2. in package.json, delete all `browser-sync` commands and replace them with `npx http-server .`
+    3. Now the project will be running on :8080 so go to the browser and try accessing http://localhost:8080/
+  The only thing is that the project won't restart when you change some code, you have to press F5 on the page every time you change something
+---
+## ⌨ How to run the project ##
 
-## Checklist Features
-- Titles List
+```bash
+# Clone this project
+$ git clone git@github.com:Ca-byte/JS-expect-week.git
+
+# Access
+$ cd javascript-expert07-week
+
+# Restore the packages
+$ npm ci
+
+# Run the project
+$ npm start
+
+# The server will initialize in the <http://localhost:3000/>
+
+```
+<br>
+
+---
+
+## Project ##
+
+One of the highlights was class 01, where we explored the ability to reproduce and pause videos with just the blink of an eye. It was mind-blowing to see how multithreading in the browser can make this possible.
+
+In class 02, we delved into the fascinating world of gesture recognition and how we can use it to interact with web applications in new and exciting ways.
+
+class 03 was all about unleashing our creativity with canvas, learning how to draw and click on elements based on their x and y coordinates.
+
+And finally, in class 04, we even got to hack the browser to simulate mouse events, opening up a whole new world of possibilities for web developers.
+
+
+
+This is a project developed during Semana JS Expert 7.0 **[JSExpert Max Gesture Controller](https://semana.javascriptexpert.com.br/)**, run by Erick Wendel.
+
+## Features ##
+- TODO List
   - [x] - The search field should not crash when typing the search term
   - [x] - It should draw hands on screen and make background elements still clickable 🙌
   - [x] - Should trigger scroll up when using open palm 🖐
@@ -20,24 +94,22 @@
 - Video Player
   - [x] - It should be possible to play or pause videos in the blink of an eye 😁
   - [x] - All machine learning processing must be done through a web worker
+	
+## Links: ##
+- All links used in [references](./referencias.md)
 
-### Challenges
-- [] - Lesson 01 - Differentiate between left and right eye blinks and update the log to show which eye blinked.
-- [] - Lesson 02 - Recognize individual hand gestures and print in the record
-- [] - Lesson 03 - Correct video title banner, to be behind the hand drawing and to be clickable
-- [] - Lesson 04 - Using virtual hands also in Video Player
+<br>
 
-### Classes and Links:
-- Reuni todos os links em[referências](./referencias.md)
-- JSExpertMax Gesture Controller - Semana JS Expert 7.0[Seventh Javascript Expert Week](https://github.com/ErickWendel/semana-javascript-expert07)🌟
+---
 
-### FAQ
-- browser sync is throwing errors on Windows and never boots:
-  - Solution: Replace browser sync with http server.
-    1. install **http-server** with `npm i -D http-server`
-    2. in package.json, delete all `browser-sync` commands and replace them with `npx http-server .`
-    3. Now the project will be running on :8080 so go to the browser and try accessing http://localhost:8080/
-  The only thing is that the project won't restart when you change some code, you have to press F5 on the page every time you change something
+## 🔖 Layout ##
 
-### Credits to Layout
-- Project based interface[Streaming Service](https://codepen.io/Gunnarhawk/pen/vYJEwoM) de [gunnarhawk](https://github.com/Gunnarhawk)
+- Project based interface [Streaming Service](https://codepen.io/Gunnarhawk/pen/vYJEwoM) from [gunnarhawk](https://github.com/Gunnarhawk)
+
+---
+
+<br>
+<p align="center">Developed with 💜 by Caroline Vieira</p>
+
+<a href="#top">☝</a>
+
