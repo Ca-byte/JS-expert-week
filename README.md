@@ -1,76 +1,27 @@
 
-<p align="center">
+<p align="center" id="top">
   <img alt="streaming platform with drawing hands doing a heart shape" src=".github/js-expert-cover.png" width="600px">
 </p>
 
-Give a peek at the project [Here](https://ca-byte.github.io/JS-expert-week/classes/class04/pages/titles/)
-
 <br>
 
 
 <p align="center">
-  <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="#memo-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 	<a href="#features">Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="#clipboard-requirements">Requirements</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 	<a href="#links">Links</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 	<a href="#faq">FAQ</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-	<a href="#layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="#keyboard-how-to-run-the-project">How to run the project </a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="#art-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
-<br>
 
----
-## 🚀 Technologies ##
-
-This project was developed using the following technologies:
-
-- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
-- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-- [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-- [TensorFlow](https://blog.tensorflow.org/2020/11/iris-landmark-tracking-in-browser-with-MediaPipe-and-TensorFlowJS.html)
-- [Workers API](https://blog.tensorflow.org/2020/11/iris-landmark-tracking-in-browser-with-MediaPipe-and-TensorFlowJS.html)
-- [Module Workers](https://web.dev/module-workers/)
-
-<br>
----
-## 📋  Requirements ##
-
-Before starting you need :checkered_flag:, have installed the [Git](https://git-scm.com) e [Node](https://nodejs.org/en/).
-- This project was created using Node.js v19.6
-- Ideally, you should use the project in a Unix (Linux) environment. If you are on Windows, it is recommended to use [Windows Subsystem Linux](https://www.omgubuntu.co.uk/how-to-install-wsl2-on-windows-10) as Linux commands are shown in classes that may not exist on Windows.
-
-<br>
-
-## FAQ ##
-- browser sync is throwing errors on Windows and never boots:
-  - Solution: Replace browser sync with http server.
-    1. install **http-server** with `npm i -D http-server`
-    2. in package.json, delete all `browser-sync` commands and replace them with `npx http-server .`
-    3. Now the project will be running on :8080 so go to the browser and try accessing http://localhost:8080/
-  The only thing is that the project won't restart when you change some code, you have to press F5 on the page every time you change something
----
-## ⌨ How to run the project ##
-
-```bash
-# Clone this project
-$ git clone git@github.com:Ca-byte/JS-expect-week.git
-
-# Access
-$ cd javascript-expert07-week
-
-# Restore the packages
-$ npm ci
-
-# Run the project
-$ npm start
-
-# The server will initialize in the <http://localhost:3000/>
-
-```
 <br>
 
 ---
 
-## Project ##
+## :memo: Project 
 
 One of the highlights was class 01, where we explored the ability to reproduce and pause videos with just the blink of an eye. It was mind-blowing to see how multithreading in the browser can make this possible.
 
@@ -102,11 +53,67 @@ This is a project developed during Semana JS Expert 7.0 **[JSExpert Max Gesture 
 
 <br>
 
+
 ---
 
-## 🔖 Layout ##
+## :rocket: Technologies ##
+
+This project was developed using the following technologies:
+
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [TensorFlow](https://blog.tensorflow.org/2020/11/iris-landmark-tracking-in-browser-with-MediaPipe-and-TensorFlowJS.html)
+- [Workers API](https://blog.tensorflow.org/2020/11/iris-landmark-tracking-in-browser-with-MediaPipe-and-TensorFlowJS.html)
+- [Module Workers](https://web.dev/module-workers/)
+
+<br>
+
+---
+
+## :clipboard: Requirements
+
+Before starting you need :checkered_flag:, have installed the [Git](https://git-scm.com) e [Node](https://nodejs.org/en/).
+- This project was created using Node.js v19.6
+- Ideally, you should use the project in a Unix (Linux) environment. If you are on Windows, it is recommended to use [Windows Subsystem Linux](https://www.omgubuntu.co.uk/how-to-install-wsl2-on-windows-10) as Linux commands are shown in classes that may not exist on Windows.
+
+<br>
+
+## FAQ ##
+- browser sync is throwing errors on Windows and never boots:
+  - Solution: Replace browser sync with http server.
+    1. install **http-server** with `npm i -D http-server`
+    2. in package.json, delete all `browser-sync` commands and replace them with `npx http-server .`
+    3. Now the project will be running on :8080 so go to the browser and try accessing http://localhost:8080/
+  The only thing is that the project won't restart when you change some code, you have to press F5 on the page every time you change something
+---
+
+## :keyboard: How to run the project ##
+
+```bash
+# Clone this project
+$ git clone git@github.com:Ca-byte/JS-expect-week.git
+
+# Access
+$ cd javascript-expert07-week
+
+# Restore the packages
+$ npm ci
+
+# Run the project
+$ npm start
+
+# The server will initialize in the <http://localhost:3000/>
+
+```
+<br>
+
+## :art: Layout ##
 
 - Project based interface [Streaming Service](https://codepen.io/Gunnarhawk/pen/vYJEwoM) from [gunnarhawk](https://github.com/Gunnarhawk)
+  
+- <p lign="center">Give a peek at the project [Here](https://ca-byte.github.io/JS-expert-week/classes/class04/pages/titles/)
+</p>
 
 ---
 
